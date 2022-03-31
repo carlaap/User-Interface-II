@@ -1,1 +1,79 @@
 /* Add CSS styling here */
+header{
+    background-color: lightgray;
+    padding:20px;
+    margin-bottom: 15px;
+}
+h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300px;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+  
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding:20px
+}
+.myinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutme{
+    padding: 20px;
+    width:50%;
+    animation-duration:3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width: 300px;
+    }
+    to{
+        margin-left:0%;
+        width: 100%;
+    }
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    color:black;
+    border: black solid 1px;
+    padding: 10px 20px;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+
+} 
+
+button a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
